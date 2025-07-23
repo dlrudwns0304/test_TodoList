@@ -1,0 +1,38 @@
+main {
+    margin:50px auto;
+    width:524px;
+    height:841px;
+    
+}
+main h1 {text-align: center; font-size: 1.875rem; font-weight: 500;}
+main .wrap1 {}
+main .wrap1 input{width:358px; height:48px; margin-left: 20px;}
+main .wrap1 button{padding:10px; border-radius: 20px; margin-left:20px;}
+main .wrap1 button:hover{background-color: #0000FF; color:#fff; font-weight: 600;}
+main .wrap2 {
+    background-color: #d9d9d9;
+    width:484px;
+    height:571px;
+    margin:67px 20px 73px;
+    
+}
+main .wrap2 .contents{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding:60px;
+    
+}
+main .wrap2 .contents .chk{    
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+
+main .wrap2 .contents .chk input{width:30px; height:20px;margin-right: 20px; border-bottom: 1px solid;}
+main .wrap2 .contents .chk .line{border-bottom: 1px solid #000; width:311px;}
+
+@media (max-width: 768px) {
+    main h1 {font-size: 1.25rem;}
+    main .wrap1 button {padding:5px;}
+}
